@@ -11,12 +11,15 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,400&family=Merriweather+Sans:ital@0;1&family=Quicksand:wght@300;500;700&family=Roboto:wght@700&display=swap" rel="stylesheet">   
+        <script src="https://kit.fontawesome.com/f76c09d3eb.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
-        <header>
-            <nav>
-                <ul>
+        <header class="header">
+            <img class="header--img" src="./LOGO-PROYECYO.png" alt="Logo de Milo">
+            <a href="./">Home</a>
+            <nav class="header--nav">
+                <ul class="header--list">
                     <li>
                         <a href="./contact.html">Contact</a>
                     </li>
@@ -32,15 +35,48 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            <img src="https://twitter.com/Ramiro_py/photo/200" alt="Foto de perfil">
-            <h2>Ramiro Godoy</h2>
-            <p>My description</p>
+        <main class="main">
+            <div class="main--container">
+                <div class="img-container">
+                    <img class= "main--img" src="./Milo.jpeg" alt="Foto de perfil">
+                </div>
+                <div class="main--info">
+                    <h2 class="info--name">Ramiro Godoy Frontend Developer</h2>
+                    <p class="info--description">Soy Ingeniero en electrónica, desarrollador y un apasionado de la tecnología</p>
+                    <div class="main--links">
+                        <a class="main--link main--link__salmon" href="./contact.html">Contact</a>
+                        <a class="main--link main--link__transparent" href="./about.html">About Me</a>
+                    </div>
+                    <div class="main--social-media">
+                        <h2>Social Media</h2>
+                        <ul>
+                            <li>
+                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                   
+                </div>
+            </div>
             <ul>
-                <li>React</li>
-                <li>Html</li>
-                <li>Css</li>
-                <li>JavaScript</li>
+                <li>
+                    <img src="" alt="React">
+                    <p>React</p>
+                </li>
+                <li>
+                    <img src="" alt="Html">
+                    <p>Html</p>
+                </li>
+                <li>
+                    <img src="" alt="Css">
+                    <p>Css</p>
+                </li>
+                <li>
+                    <img src="" alt="JavaScript">
+                    <p>JavaScript</p>
+                </li>
             </ul>
         </main>
     </body>
